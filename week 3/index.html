@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        /* Group selector */
+        h1, h2 {
+            color: darkblue;
+            text-transform: uppercase;
+        }
+        /* ID selector */
+        #header {
+            background-color: darkblue;
+            padding: 20px;
+            text-align: center;
+        }
+        /* navigation styling */
+        nav {
+            background-color: black;
+            padding: 10px;
+        }
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        /* descendant selector */
+        nav ul lia {
+            text-decoration: none;
+            color: green;
+            padding: 8px;
+        }
+        /* pseudo-class */
+        nav ul li a:hover{
+            background-color: greenyellow;
+            border-radius: 5px;
+        }
+        /* group selector */
+        h1, h2{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* class selector */
+        .section{
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid green;
+            border-radius: 10px;
+        }
+    </style>
+    </head>
+    <body>
+        <!--Header section-->
+        <header id="header">
+            <h1>Kelven Mbosso</h1>
+            <p1 style="font-size: 40px;">
+                KELVEN OBADIYA MBOSSO
+
+            </p>
+            <p2 style="font-size: 30px;">
+                Bsc.ISM Student
+            </p2>
+        </header>
+        <!--Navigation Menu-->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#routine">Daily routine</a></li>
+            </ul>
+        </nav>
+        <!--About Section-->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>
+                My name is Kelven Mbosso. I am learning web development and i enjoy to creating websites using HTML and CSS.
+            </p>
+            <!--Inline CSS-->
+            <img src="image/Screenshot 2026-05-12 175358.png"
+            alt="Profile Image"
+            style="border-radius: 10px;">
+        </section>
+        <!--Skills Section-->
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Database</li>
+            </ul>
+        </section>
+        <!--Daily Routine Section-->
+        <section id="routine" class="section">
+            <h2>Daily Routine</h2>
+            <ol>
+                <li>Wake up</li>
+                <li>Attend classes</li>
+                <li>Practice coding</li>
+                <li>Study web development</li>
+            </ol>
+        </section>
+    </body>
+</html>

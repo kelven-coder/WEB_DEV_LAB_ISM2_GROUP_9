@@ -1,0 +1,21 @@
+/*External CSS */
+/*Element selector*/
+body{
+    background-color:lightblue ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+/*Element selector*/
+p{
+    color: darkslategray;
+}
+/*Class selector*/
+.section{
+    background-color: white;
+}
+/*Element selector*/
+img{
+    width: 200px;
+}
