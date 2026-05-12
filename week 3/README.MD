@@ -60,4 +60,9 @@ The website includes the following sections and features:
 -Navigation Menu Linking
 -Page Layout and Styling
 ## Members Participated
-- Kelven Obadiya Mbosso    32927/T.2024
+- Kelven Obadiya Mbosso     32927/T.2024
+-Innocencia Edward Berchard 32762/T.2024
+-Tamira Hija Kipeleka       33283/T.2024
+-Jesca Henry Ngimbuchi      32657/T.2024
+-Thobias Mgaya Mlebus       32451/T.2024
+-Avith Fredrick Mbuya       32256/T.2024
